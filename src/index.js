@@ -1,7 +1,10 @@
-if (process.env.NODE_ENV !== "production") require("dotenv").config();
-const Koa = require("koa");
-const db = require("./db");
-const User = require("./db/models/user");
+// @flow
+
+/* eslint-disable-next-line global-require */
+if (process.env.NODE_ENV !== 'production') require('dotenv').config();
+const Koa = require('koa');
+/* eslint-disable-next-line no-unused-vars */
+const db = require('./db');
 
 const app = new Koa();
 
