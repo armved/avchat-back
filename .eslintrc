@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["prettier", "plugin:flowtype/recommended", "airbnb-base/legacy"],
+  "plugins": ["prettier", "flowtype"],
+  "rules": {
+    "prettier/prettier": "error",
+    "linebreak-style": 0,
+    "comma-dangle": ["error", "always-multiline"],
+    "no-console": "warn"
+  },
+  "globals": {
+    "document": true,
+    "window": true
+  }
+}
